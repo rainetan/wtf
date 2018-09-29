@@ -1,0 +1,49 @@
+VER 3 0100000000000003 "cc" "INV_MISC_QUESTIONMARK"
+/cast [@focus] hex
+END
+VER 3 0100000000000006 "dec" "INV_MISC_QUESTIONMARK"
+#showtooltip cleanse spirit
+/cast [@mouseover] cleanse spirit
+END
+VER 3 0100000000000004 "f" "INV_MISC_QUESTIONMARK"
+/focus [@mouseover]
+END
+VER 3 010000000000000C "f-lb" "INV_MISC_QUESTIONMARK"
+/cast [@focus] lava burst
+END
+VER 3 0100000000000008 "fs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] flame shock
+END
+VER 3 0100000000000002 "hero" "INV_MISC_QUESTIONMARK"
+/target howbuybomb
+/cast bloodlust
+/targetlasttarget
+END
+VER 3 0100000000000001 "lb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence Lightning Bolt
+/cast Lava burst
+END
+VER 3 010000000000000A "mark" "INV_MISC_QUESTIONMARK"
+/tar liquid magma
+/script SetRaidTarget("target", 7)
+/targetlasttarget
+END
+VER 3 0100000000000005 "s" "INV_MISC_QUESTIONMARK"
+/cast [@focus] wind shear
+END
+VER 3 010000000000000B "spec:ele" "INV_MISC_QUESTIONMARK"
+/run UseEquipmentSet(GetEquipmentSetInfo(1)); SetSpecialization(1)
+END
+VER 3 010000000000000D "tar" "132328"
+/tar demo
+END
+VER 3 0100000000000009 "tar" "571693"
+/tar a knot
+END
+VER 3 0100000000000007 "wolf" "INV_MISC_QUESTIONMARK"
+#showtooltip feral spirit
+/use My'das Talisman
+/cast feral spirit
+END

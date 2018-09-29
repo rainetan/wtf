@@ -1,0 +1,194 @@
+VER 3 0000000000000047 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Dalaran Hearthstone
+END
+VER 3 0000000000000044 "AH CANCEL" "SPELL_MISC_PETHEAL"
+/click TSMAuctioningCancelButton
+END
+VER 3 0000000000000041 "AH CRAFT" "134260"
+/click TSMCraftNextButton
+END
+VER 3 0000000000000040 "AH MILL" "INV_MISC_QUESTIONMARK"
+/cast milling
+/use Sungrass
+/use Bruiseweed
+/use Kingsblood
+/use Gromsblood
+/use Wild Steelbloom
+/use Golden Sansam
+/use Dreamfoil
+/use Liferoot
+/use Khadgar's Whisker
+/use Fadeleaf
+/use Blindweed
+END
+VER 3 0000000000000042 "AH MILL Outland" "INV_MISC_QUESTIONMARK"
+/cast milling
+/use Dreaming Glory
+/use Terocone
+/use Felweed
+/use Mana Thistle
+/use Ragveil
+/use Netherbloom
+/use Nightmare Vine
+/use Mountain Silversage
+/use Golden Sansam
+/use Dreamfoil
+END
+VER 3 0000000000000043 "AH POST" "967512"
+/click TSMAuctioningPostButton
+END
+VER 3 0000000000000021 "ankh" "INV_MISC_QUESTIONMARK"
+#showtooltip Reincarnation
+END
+VER 3 0000000000000029 "cancelmist" "INV_MISC_QUESTIONMARK"
+/use Enchanting Vellum
+END
+VER 3 000000000000002F "cap totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast capacitor totem
+/cast totemic projection
+END
+VER 3 0000000000000045 "charms" "INV_MISC_QUESTIONMARK"
+/castsequence chain lightning
+/cast healing stream totem
+END
+VER 3 0000000000000046 "charms buy" "INV_MISC_QUESTIONMARK"
+/run BuyMerchantItem(1,1)
+/use Lovely Charm
+END
+VER 3 0000000000000017 "dance" "INV_MISC_QUESTIONMARK"
+/tar subet
+/dance
+END
+VER 3 000000000000001C "detail" "INV_MISC_QUESTIONMARK"
+/run frm = CreateFrame("PlayerModel");frm:SetPoint("BOTTOMRIGHT",nil,"BOTTOMRIGHT",0,100);frm:SetHeight(600);frm:SetWidth(300);frm:RegisterEvent("PLAYER_TARGET_CHANGED");frm:SetScript("OnEvent",function(self,event,...) frm:SetUnit("target") end);
+END
+VER 3 000000000000003B "earth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast earth elemental totem
+/cast reinforce
+END
+VER 3 000000000000002E "earthgrab" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast earthbind totem
+/cast totemic projection
+END
+VER 3 0000000000000024 "echo" "INV_MISC_QUESTIONMARK"
+/script SetRaidTarget("target", 5);
+END
+VER 3 000000000000001B "elegon" "INV_MISC_QUESTIONMARK"
+/cancelaura wild growth
+/cancelaura renewing mist
+/cancelaura rejuvenation
+/cancelaura renew
+/cancelaura riptide
+/cancelaura earthliving
+/cancelaura eternal flame
+END
+VER 3 0000000000000016 "fish" "INV_MISC_QUESTIONMARK"
+#showtooltip Emperor Salmon
+END
+VER 3 0000000000000014 "focus mouseover" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+/focus [@mouseover]
+END
+VER 3 0000000000000031 "frostshock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast frost shock
+END
+VER 3 0000000000000020 "horn" "INV_MISC_QUESTIONMARK"
+/cancelaura Vrykul Drinking Horn
+/use Vrykul Drinking Horn
+END
+VER 3 0000000000000033 "huddle" "SPELL_HOLY_SENSEUNDEAD"
+/target [@mouseover]
+/click ExtraActionButton1
+/targetlasttarget
+END
+VER 3 000000000000003A "lb" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000000035 "lightning bolt" "INV_MISC_QUESTIONMARK"
+/castsequence lightning bolt
+/cast lava burst
+END
+VER 3 0000000000000027 "lvb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [modifier:ctrl,@focus] Lava Burst; Lava Burst
+/petattack
+END
+VER 3 0000000000000025 "magma" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast magma totem
+/cast totemic projection
+END
+VER 3 0000000000000018 "meng" "INV_MISC_QUESTIONMARK"
+/tar meng
+/focus
+/targetlasttarget
+END
+VER 3 0000000000000015 "mogu" "INV_MISC_QUESTIONMARK"
+/use Sack of Crocolisk Belly
+END
+VER 3 000000000000002D "mountspecial" "INV_MISC_QUESTIONMARK"
+/mountspecial
+END
+VER 3 000000000000002B "raft" "INV_MISC_QUESTIONMARK"
+#showtooltip fishing
+/use Anglers Fishing Raft
+/cast Fishing
+END
+VER 3 000000000000003C "rang" "INV_MISC_QUESTIONMARK"
+/targetlasttarget
+/use loot-a-rang
+END
+VER 3 0000000000000037 "resto ascend" "INV_MISC_QUESTIONMARK"
+#showtooltip ascendance
+/use Dreadful Gladiator's Badge of Dominance
+/cast ascendance
+END
+VER 3 000000000000001E "ROAR" "INV_MISC_QUESTIONMARK"
+/roar
+END
+VER 3 0000000000000038 "ruthers2" "INV_MISC_QUESTIONMARK"
+/click ActionButton1
+/click ActionButton2
+/click ActionButton3
+/click ActionButton4
+/click ActionButton5
+/click ActionButton6
+END
+VER 3 0000000000000032 "sha" "INV_MISC_QUESTIONMARK"
+/run local z,t,s={[32099]='Sha of Anger this week.'},GetQuestsCompleted();for c,v in pairs(z) do if t[c] then s='' else s=' not' end print('You have'..s,'done',v) end
+END
+VER 3 0000000000000039 "SLT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast spirit link totem
+/click TotemFrameTotem4 RightButton
+END
+VER 3 000000000000002C "stone bulwark" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/script DestroyTotem(2)
+/cast Stone Bulwark Totem
+END
+VER 3 0000000000000036 "tarlasttar" "ACHIEVEMENT_GUILDPERK_HONORABLEMENTION_RANK2"
+/targetlasttarget
+END
+VER 3 0000000000000022 "tt windwalk" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Windwalk Totem
+/click TotemFrameTotem4 RightButton
+END
+VER 3 000000000000003D "wm 1" "INV_MISC_QUESTIONMARK"
+/wm 8
+END
+VER 3 000000000000003E "wm 2" "INV_MISC_QUESTIONMARK"
+/wm 4
+END
+VER 3 000000000000003F "wm clear" "INV_MISC_QUESTIONMARK"
+/cwm
+END
+VER 3 0000000000000019 "zian" "INV_MISC_QUESTIONMARK"
+/script VehicleExit()
+END
