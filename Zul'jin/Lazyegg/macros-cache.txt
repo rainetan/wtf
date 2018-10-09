@@ -15,6 +15,10 @@ VER 3 0100000000000008 "fs" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] flame shock
 END
+VER 3 010000000000000E "fs-mouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] flame shock
+END
 VER 3 0100000000000002 "hero" "INV_MISC_QUESTIONMARK"
 /target howbuybomb
 /cast bloodlust
@@ -30,6 +34,9 @@ VER 3 010000000000000A "mark" "INV_MISC_QUESTIONMARK"
 /script SetRaidTarget("target", 7)
 /targetlasttarget
 END
+VER 3 010000000000000F "resto-trinket" "INV_MISC_QUESTIONMARK"
+/use [@mouseover] Revitalizing Voodoo Totem
+END
 VER 3 0100000000000005 "s" "INV_MISC_QUESTIONMARK"
 /cast [@focus] wind shear
 END
@@ -40,7 +47,9 @@ VER 3 0100000000000009 "tar" "571693"
 /tar a knot
 END
 VER 3 010000000000000D "tar" "132328"
-/tar demo
+/tar bobby
+/focus
+/targetlasttarget
 END
 VER 3 0100000000000007 "wolf" "INV_MISC_QUESTIONMARK"
 #showtooltip feral spirit

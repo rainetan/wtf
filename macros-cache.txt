@@ -1,39 +1,5 @@
 VER 3 0000000000000047 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use Dalaran Hearthstone
-END
-VER 3 0000000000000044 "AH CANCEL" "SPELL_MISC_PETHEAL"
-/click TSMAuctioningCancelButton
-END
-VER 3 0000000000000041 "AH CRAFT" "134260"
-/click TSMCraftNextButton
-END
-VER 3 0000000000000040 "AH MILL" "INV_MISC_QUESTIONMARK"
-/cast milling
-/use Sungrass
-/use Bruiseweed
-/use Kingsblood
-/use Gromsblood
-/use Wild Steelbloom
-/use Golden Sansam
-/use Dreamfoil
-/use Liferoot
-/use Khadgar's Whisker
-/use Fadeleaf
-/use Blindweed
-END
-VER 3 0000000000000042 "AH MILL Outland" "INV_MISC_QUESTIONMARK"
-/cast milling
-/use Dreaming Glory
-/use Terocone
-/use Felweed
-/use Mana Thistle
-/use Ragveil
-/use Netherbloom
-/use Nightmare Vine
-/use Mountain Silversage
-/use Golden Sansam
-/use Dreamfoil
+/script print('no button yet')
 END
 VER 3 0000000000000043 "AH POST" "967512"
 /click TSMAuctioningPostButton

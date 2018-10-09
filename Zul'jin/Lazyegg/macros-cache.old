@@ -15,6 +15,10 @@ VER 3 0100000000000008 "fs" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] flame shock
 END
+VER 3 010000000000000E "fs-mouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] flame shock
+END
 VER 3 0100000000000002 "hero" "INV_MISC_QUESTIONMARK"
 /target howbuybomb
 /cast bloodlust
@@ -37,7 +41,9 @@ VER 3 010000000000000B "spec:ele" "INV_MISC_QUESTIONMARK"
 /run UseEquipmentSet(GetEquipmentSetInfo(1)); SetSpecialization(1)
 END
 VER 3 010000000000000D "tar" "132328"
-/tar demo
+/tar bobby
+/focus
+/targetlasttarget
 END
 VER 3 0100000000000009 "tar" "571693"
 /tar a knot

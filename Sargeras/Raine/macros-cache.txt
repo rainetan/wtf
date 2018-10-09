@@ -1,0 +1,81 @@
+VER 3 010000000000001D "belt" "INV_MISC_QUESTIONMARK"
+/use 6
+END
+VER 3 0100000000000003 "bind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [modifier:shift,@focus] bind elemental; bind elemental
+END
+VER 3 010000000000000F "cloak" "INV_MISC_QUESTIONMARK"
+/use 15
+END
+VER 3 0100000000000006 "earth shock" "INV_MISC_QUESTIONMARK"
+#showtooltip earth shock
+/cast [modifier:ctrl,@focus] Earth Shock; Earth Shock
+END
+VER 3 0100000000000014 "f solar beam" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover] symbiosis
+END
+VER 3 0100000000000002 "flame shock" "INV_MISC_QUESTIONMARK"
+#showtooltip flame shock
+/cast [modifier:ctrl,@focus] flame shock; flame shock
+END
+VER 3 010000000000001F "focus mouseover" "ACHIEVEMENT_GUILDPERK_HONORABLEMENTION_RANK2"
+/focus [@mouseover]
+END
+VER 3 0100000000000007 "grounding totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast grounding totem
+/cast totemic projection
+END
+VER 3 0100000000000018 "hex" "INV_MISC_QUESTIONMARK"
+#showtooltip hex
+/cast [modifier:shift,@focus] hex; hex
+END
+VER 3 010000000000001E "lava burst" "INV_MISC_QUESTIONMARK"
+#showtooltip lava burst
+/cast [modifier:ctrl,@focus] Lava Burst; Lava Burst
+END
+VER 3 0100000000000021 "magma" "INV_MISC_QUESTIONMARK"
+#showtooltip magma totem
+/cast magma totem
+/cast totemic projection
+END
+VER 3 0100000000000011 "purge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [modifier:alt,@focus] Purge; Purge
+END
+VER 3 0100000000000005 "shear f" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@focus] wind shear
+END
+VER 3 0100000000000004 "shear t" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast wind shear
+END
+VER 3 0100000000000013 "SLT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast spirit link totem
+/cast totemic projection
+END
+VER 3 0100000000000015 "solar beam" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast symbiosis
+END
+VER 3 0100000000000020 "totemic recall" "INV_MISC_QUESTIONMARK"
+#showtooltip totemic recall
+/click TotemFrameTotem1 RightButton
+/click TotemFrameTotem2 RightButton
+/click TotemFrameTotem3 RightButton
+/click TotemFrameTotem4 RightButton
+END
+VER 3 010000000000001C "tremor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Tremor Totem
+#click TotemFrameTotem1 RightButton
+END

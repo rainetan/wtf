@@ -5,11 +5,11 @@ CliqueDB3 = {
 		["Lazyegg - Zul'jin"] = {
 			["spec1_profileKey"] = "Lazyegg - Zul'jin",
 			["fastooc"] = false,
-			["alerthidden"] = true,
-			["downclick"] = false,
 			["specswap"] = false,
+			["downclick"] = false,
 			["spec2_profileKey"] = "Lazyegg - Zul'jin",
 			["spec3_profileKey"] = "Lazyegg - Zul'jin",
+			["alerthidden"] = true,
 		},
 		["Raina - Burning Blade"] = {
 			["spec1_profileKey"] = "Raina - Burning Blade",
